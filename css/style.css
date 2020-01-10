@@ -1,0 +1,152 @@
+/* COMMON STYLES */
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Roboto;
+}
+.row{
+	margin: 0;
+}
+.color-red{
+	color:#E74C3C;
+}
+.color-yel{
+	color:#F1C40F;
+}
+
+/* HEADER */
+.section-header{
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #F1C40F;
+	background-color: #FAFAFA;
+}
+.section-header a, .section-header a:hover{
+	text-decoration: none;
+	color:#7B7B7B;
+
+}
+.section-header h1{
+	text-transform: uppercase;
+	font-size: 30px;
+	font-style:normal;
+}
+.section-header h1 span:nth-child(1){
+	color:#E74C3C;
+}
+.section-header h1 span:nth-child(2){
+	color:#F1C40F;
+}
+.logo-block div:nth-child(2){
+	margin-left: 10px;
+}
+
+
+/* MAIN SECTION */
+.main-picture{
+	max-width: 650px;
+	background-color: #FAFAFA;
+	border: 1px solid #A09C9C;
+	box-shadow: -4px -4px 10px rgba(0, 0, 0, 0.25), 4px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+	margin-top:50px;
+
+}
+.main-picture h2, .section-main h2{
+	text-transform: uppercase;
+	color:#7B7B7B;
+}
+.main-picture span, .section-main h2 span{
+	color:#F1C40F ;
+}
+.main-picture-arrow{
+	margin-top:-1px;
+}
+
+/* MAIN PICTURE ITEMS */
+.main-pic-item{
+	width: 160px;
+	border-radius: 5px;
+	border: 1px solid #A09C9C;
+	background-color: #fff;
+	padding: 10px 0;
+	margin-bottom: 20px;
+}
+.main-pic-item div:nth-child(1){
+	font-size:38px;
+	text-align: right;
+}
+.main-pic-item div:nth-child(2){
+	text-align: left;
+}
+.main-pic-item div:nth-child(3){
+	font-size:20px;
+	color:#7B7B7B;
+	font-weight: bold;
+}
+.main-pic-item div{
+	padding: 0;
+}
+.main-pic-item img{
+	width: 45px;
+	height: 45px;
+}
+
+
+
+
+/* MAIN SECTION BUTTON */
+.start-button{
+	background-color: #E74C3C; 
+	padding: 0 60px;
+	border-radius: 10px;
+
+}
+.start-button h3{
+	text-transform: uppercase;
+	font-size:30px;
+	margin-left:15px;
+}
+.container-button a, .container-button a:hover{
+	text-decoration: none;
+	color:#F1C40F;
+}
+
+/* HATS PAGE */ 
+.hats-list-container{
+	max-width: 700px;
+}
+.hats-list-container hr{
+	border-top: 1px solid #F1C40F;
+}
+.hats-list-container a, .hats-list-container a:hover{
+	text-decoration: none;
+}
+.hat-item{
+	background: #FAFAFA;
+	border: 1px solid #A09C9C;
+	border-radius: 10px;
+	padding: 5px 10px;
+}
+.hat-item img{
+	width: 40px;
+	height: 40px;
+}
+.hat-item h3, .new-hat h3{
+	font-size:25px;
+	text-transform: uppercase;
+	color:#7B7B7B;
+	margin: 0 15px;
+}
+.hat-item h3 span{
+	text-transform: lowercase;
+}
+.hat-item-buttons div{
+	margin-right: 5px;
+}
+.hat-item-buttons div:last-child{
+	margin-right: 0;
+}
+.new-hat{
+	margin-top: 10px;
+}
